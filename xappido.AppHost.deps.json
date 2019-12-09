@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "xappido.AppHost/1.0.11": {
+      "xappido.AppHost/1.0.12": {
         "dependencies": {
           "Microsoft.AspNetCore": "2.1.7",
           "Microsoft.AspNetCore.Hosting": "2.1.1",
@@ -2453,7 +2453,7 @@
     }
   },
   "libraries": {
-    "xappido.AppHost/1.0.11": {
+    "xappido.AppHost/1.0.12": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
