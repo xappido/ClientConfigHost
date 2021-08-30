@@ -8,7 +8,11 @@
       "TRACE",
       "DEBUG",
       "NETCOREAPP",
-      "NETCOREAPP2_1"
+      "NETCOREAPP2_1",
+      "NETCOREAPP1_0_OR_GREATER",
+      "NETCOREAPP1_1_OR_GREATER",
+      "NETCOREAPP2_0_OR_GREATER",
+      "NETCOREAPP2_1_OR_GREATER"
     ],
     "languageVersion": "7.3",
     "platform": "",
@@ -22,7 +26,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "xappido.AppHost/1.0.18": {
+      "xappido.AppHost/1.0.19": {
         "dependencies": {
           "Microsoft.AspNetCore": "2.1.7",
           "Microsoft.AspNetCore.Hosting": "2.1.1",
@@ -2453,7 +2457,7 @@
     }
   },
   "libraries": {
-    "xappido.AppHost/1.0.18": {
+    "xappido.AppHost/1.0.19": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
