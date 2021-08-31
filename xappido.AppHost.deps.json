@@ -6,19 +6,15 @@
   "compilationOptions": {
     "defines": [
       "TRACE",
-      "DEBUG",
+      "RELEASE",
       "NETCOREAPP",
-      "NETCOREAPP2_1",
-      "NETCOREAPP1_0_OR_GREATER",
-      "NETCOREAPP1_1_OR_GREATER",
-      "NETCOREAPP2_0_OR_GREATER",
-      "NETCOREAPP2_1_OR_GREATER"
+      "NETCOREAPP2_1"
     ],
     "languageVersion": "7.3",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
-    "optimize": false,
+    "optimize": true,
     "keyFile": "",
     "emitEntryPoint": true,
     "xmlDoc": false,
@@ -26,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "xappido.AppHost/1.0.19": {
+      "xappido.AppHost/1.0.20": {
         "dependencies": {
           "Microsoft.AspNetCore": "2.1.7",
           "Microsoft.AspNetCore.Hosting": "2.1.1",
@@ -1852,7 +1848,7 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "assemblyVersion": "4.0.4.1",
-            "fileVersion": "4.6.26919.2"
+            "fileVersion": "4.0.0.0"
           }
         },
         "compile": {
@@ -2457,7 +2453,7 @@
     }
   },
   "libraries": {
-    "xappido.AppHost/1.0.19": {
+    "xappido.AppHost/1.0.20": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
